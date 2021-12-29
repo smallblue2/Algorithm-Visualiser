@@ -1,9 +1,12 @@
 # Sorting-Algorithm-Visualiser
-An algorithm visualiser made using the pygame library
+A sorting algorithm visualiser made using the pygame library
 
 CONTROLS:
+
 Space -> Generates random list & displays
+
 Return -> Visualises given algorithm (Selection Sort)
+
 
 I challenged myself to make an algorithm visualiser completely from scratch.
 With my previous knowledge of pygame creating the 2v2-Pygame-Shooter, I 
