@@ -29,7 +29,7 @@ def fill_list():
         i += 1
 
 # SORT FUNCTION
-def selection_sort():
+def sort():
     # SELECTION SORT
     i = 0
     while i < len(LIST):
@@ -43,6 +43,7 @@ def selection_sort():
         LIST[p] = LIST[i]
         LIST[i] = tmp
         i += 1
+        # DRAW SORT STEP
         draw()
 
 # MAIN FUNCTION
@@ -58,7 +59,7 @@ def main():
                     fill_list()
                     draw()
                 if event.key == pygame.K_RETURN:
-                    selection_sort()
+                    sort()
 
 if __name__ == '__main__':
     main()
