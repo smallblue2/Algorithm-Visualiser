@@ -9,4 +9,4 @@ I implemented selection sort, however, I programmed it to be interchangeable
 with any sorting algorithm.
 
 The script is modular, so you can adjust any of the global values
-to adjust the script.
+to adjust the script however be aware of pygame's limitations.
